@@ -1,4 +1,5 @@
 import React from "react";
+import Fruit from "./Fruit";
 
 function Fruits(props) {
   // const fruitList = [
@@ -51,9 +52,15 @@ function Fruits(props) {
     <div>
       <ul>
         {fruitList.map((fruit) => (
-          <li style={{ listStyle: "none", padding: "10px" }} key={fruit.name}>
-            {fruit.emoji} {fruit.name} {fruit.price}
-          </li>
+          // <li style={{ listStyle: "none", padding: "10px" }} key={fruit.name}>
+          //   {fruit.emoji} {fruit.name} {fruit.price}
+          // </li>
+          <Fruit
+            key={fruit.name}
+            emoji={fruit.emoji}
+            name={fruit.name}
+            price={fruit.price}
+          />
         ))}
       </ul>
     </div>
