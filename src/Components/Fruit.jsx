@@ -4,7 +4,7 @@ function Fruit({ emoji, name, price }) {
   return (
     <div>
       <li style={{ listStyle: "none", padding: "10px" }}>
-        {emoji} {name} {price}
+        {emoji} {name} ${price}
       </li>
     </div>
   );

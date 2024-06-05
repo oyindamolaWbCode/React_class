@@ -1,3 +1,4 @@
+import Conditional from "./Components/Conditional";
 import Fruits from "./Components/Fruits";
 import Hello from "./Components/Hello";
 
@@ -10,9 +11,10 @@ function App() {
   };
   return (
     <div>
-      <Hello name="Tommy" message="Hello" emoji="👋" />
-      <Hello {...person} />
+      {/* <Hello name="Tommy" message="Hello" emoji="👋" />
+      <Hello {...person} /> */}
       <Fruits />
+      <Conditional />
     </div>
   );
 }
