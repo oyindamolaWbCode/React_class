@@ -24,7 +24,7 @@ function Fruits(props) {
     },
     {
       name: "Kiwi",
-      price: "500",
+      price: "50",
       emoji: "🥝",
     },
     {
